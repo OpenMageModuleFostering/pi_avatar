@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * PI Avatar Module.
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Magento Team
+ * that is bundled with this package of PI Infomatix Pvt. Ltd.
+ * =================================================================
+ *                 MAGENTO EDITION USAGE NOTICE
+ * =================================================================
+ * This package designed for Magento COMMUNITY edition
+ * PI Support does not guarantee correct work of this package
+ * on any other Magento edition except Magento COMMUNITY edition.
+ * =================================================================
+ */
+-->
+<config>
+    <modules>
+        <PI_Avatar>
+            <active>true</active>
+            <codePool>community</codePool>
+    	</PI_Avatar>
+    </modules>
+</config>

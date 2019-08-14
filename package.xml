@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>PI_Avatar</name>
+    <version>0.1.2</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension provides a facility to personalize their account by uploading an avatar i.e customer's image.</summary>
+    <description>You can use this extension to priovide a facility to your customers so that they can upload their avatar / image . This extension introduces a creative space in your e-commerce. </description>
+    <notes>This is a stable version.</notes>
+    <authors><author><name>pureimagination</name><user>pureimagination</user><email>johncarter15oct@gmail.com</email></author></authors>
+    <date>2015-06-30</date>
+    <time>16:04:44</time>
+    <contents><target name="magecommunity"><dir name="PI"><dir name="Avatar"><dir name="Block"><dir name="Header"><file name="Avatar.php" hash="a3dbf86b0cdb133e454974042a1bedd4"/></dir><dir name="Widget"><file name="Upload.php" hash="e209ab439448cfd169a05ee3e2dfecd1"/></dir></dir><dir name="Helper"><file name="Data.php" hash="5e03c55da63913a35cd957634a6bbc1a"/></dir><dir name="Model"><file name="Avatar.php" hash="21af40cd35d1a266f8600e617729ec53"/><file name="Config.php" hash="de3fce175225e43f1a6775460bfc95d2"/><file name="Observer.php" hash="05fc469a36c6d90dac9d364bb7781db9"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="CustomerController.php" hash="4f7451e61bfea58aa9cb221d6c65ea65"/></dir><file name="CustomerController.php" hash="5f97a51c910c53e4ee65faaf80ef584f"/></dir><dir name="etc"><file name="config.xml" hash="49b83f66848d60f8e04f8d6760c31694"/><file name="system.xml" hash="c508bdfe72301ae8a6314f61589c7b98"/><file name="widget.xml" hash="2b6da1643be3118a831964f8f8a9ba60"/></dir><dir name="sql"><dir name="avatar_setup"><file name="install-0.1.0.php" hash="7232d45b8c583e8667d264778cc314cd"/><file name="mysql4-upgrade-0.1.0-0.1.1.php" hash="9f769023dc93b639ae0b5405cb60d3f7"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="PI_Avatar.xml" hash="6d16e65614e0ca6be0b1d19bfd0fbb88"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="pi"><file name="avatar.xml" hash="aef096ad608e2f20eea3c9a911429e27"/></dir></dir><dir name="template"><dir name="avatar"><dir name="customer"><file name="form.phtml" hash="588a2591a2090dc44fc5c5b093f78237"/></dir><dir name="header"><file name="avatar.phtml" hash="4e36ed62d5c554b261df72233fcbdc1a"/></dir><dir name="page"><dir name="html"><file name="header.phtml" hash="b5d060f524212defa561d5d69e50be93"/></dir></dir><dir name="widget"><file name="account.phtml" hash="6b7563e9764a754b7ed7dd23053941d4"/></dir></dir></dir></dir></dir><dir name="rwd"><dir name="default"><dir name="template"><dir name="avatar"><dir name="page"><dir name="html"><file name="header.phtml" hash="0a1e1bc01bb77d3ce6f934a18ae7e02d"/></dir></dir></dir></dir></dir></dir></dir></target><target name="mage"><dir name="js"><dir name="jquery"><dir name="pi"><dir name="avatar"><file name="jQuery.js" hash="0652da382b6fceb033dfe2b6c06d4d11"/><file name="jqueryNoConflict.js" hash="6bf6f815a7452a260283f5572ece46b5"/></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><dir name="pi"><file name="avatar.css" hash="4c0ff6c49550583c4db5fdddddd03042"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
