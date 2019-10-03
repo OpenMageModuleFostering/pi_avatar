@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 This extension provides a facility to personalize their account by uploading an avatar i.e customer's image.
